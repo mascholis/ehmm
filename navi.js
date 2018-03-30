@@ -1,13 +1,6 @@
-<script type='text/javascript'>
+<script type="text/javascript">
 //<![CDATA[
-$(document).ready(function()
-{
-var aa=$("#credit").val();
-if (aa == null) {
-window.location.href = "http://www.tipsim.com/";
-};
-$("#credit").attr("href","http://www.tipsim.com/");
-
-});
+$(document).ready(function () { if ($("#mycredit,.mycredit").attr("href") != "http://www.tipsim.com") {
+        window.location.href = "http://www.tipsim.com"; }});
 //]]>
 </script>
